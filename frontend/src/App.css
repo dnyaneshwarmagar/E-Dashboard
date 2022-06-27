@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.nav-ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  list-style: none;
+}
+
+.nav-ul li a{
+  color: aliceblue;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color:skyblue;
+}
+.footer{
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 40%;
+  align-items: center;
+}
+.inputBox input{
+  border : 1px orange solid;
+  margin: 5px;
+}
+.inputBox button{
+  width: 100px;
+  padding:3px;
+}
+
+
+
+
